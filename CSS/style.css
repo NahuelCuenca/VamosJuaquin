@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #252525;
+  color: white;
+  font-family: "Roboto Condensed", sans-serif; }
+
+header .menu {
+  background-color: #6930C3; }
+  header .menu a {
+    padding-left: 15%;
+    text-decoration: none;
+    list-style-type: none; }
+    header .menu a .logo {
+      height: 150px; }
+  header .menu .see-cart {
+    margin-right: 14%; }
+
+.home .hero-img {
+  width: 100%;
+  height: 70vh;
+  background-image: url(/Img/bg-home.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center; }
+  .home .hero-img .searcher {
+    display: flex;
+    flex-direction: column; }
+    .home .hero-img .searcher i {
+      z-index: 1; }
+    .home .hero-img .searcher input {
+      width: 400px;
+      padding: 3%;
+      background-color: #6930C3;
+      border: 1px #6930C3 solid;
+      border-radius: 25px;
+      color: white; }
+
+.home .benefits .center {
+  text-align: center;
+  margin-top: 35px; }
+
+.home .catalog {
+  margin-top: 6%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .home .catalog .center {
+    text-align: center;
+    margin-top: 35px; }
+  .home .catalog .beer {
+    margin: 30px 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    .home .catalog .beer .card {
+      width: 400px;
+      margin: 25px 10px;
+      background-color: #252525;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.466); }
+      .home .catalog .beer .card .card-body {
+        font-weight: bold;
+        color: #64DFDF; }
+        .home .catalog .beer .card .card-body .card-title {
+          font-weight: bold; }
+        .home .catalog .beer .card .card-body button {
+          background-color: #6930C3;
+          color: white; }
+  .home .catalog .snacks {
+    margin: 30px 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    .home .catalog .snacks .card {
+      margin: 3%;
+      background-color: #252525;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.466); }
+      .home .catalog .snacks .card .card-body {
+        font-weight: bold;
+        color: #64DFDF; }
+        .home .catalog .snacks .card .card-body .card-title {
+          font-weight: bold; }
+        .home .catalog .snacks .card .card-body a {
+          background-color: #6930C3;
+          color: white; }
+  .home .catalog .distillates {
+    margin: 30px 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    .home .catalog .distillates .card {
+      margin: 3%;
+      background-color: #252525;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.466); }
+      .home .catalog .distillates .card .card-body {
+        font-weight: bold;
+        color: #64DFDF; }
+        .home .catalog .distillates .card .card-body .card-title {
+          font-weight: bold; }
+        .home .catalog .distillates .card .card-body a {
+          background-color: #6930C3;
+          color: white; }
+
+.home .cart .table {
+  margin-left: 17%;
+  max-width: 65%;
+  color: white; }
+
+footer {
+  background-color: #6930C3;
+  height: 25vh; }
+  footer .footer-main {
+    margin: 30px 14%;
+    padding-top: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around; }
+    footer .footer-main .info {
+      list-style-type: none;
+      text-decoration: none;
+      color: #64DFDF; }
+      footer .footer-main .info .text {
+        font-weight: bold; }
+      footer .footer-main .info li a {
+        color: #64DFDF; }
+    footer .footer-main .social-media {
+      list-style-type: none;
+      text-decoration: none; }
+      footer .footer-main .social-media li {
+        padding-top: 10px; }
+        footer .footer-main .social-media li a {
+          color: #64DFDF; }

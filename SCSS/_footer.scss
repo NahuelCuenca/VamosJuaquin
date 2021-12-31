@@ -1,0 +1,45 @@
+footer{
+    background-color: $color2;
+    height: 25vh;
+
+    .footer-main{
+        margin: 30px 14%;
+        padding-top: 35px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        .logo-footer{
+            
+            img{
+
+            }
+        }
+        .info{
+            list-style-type: none;
+            text-decoration: none;
+            color: $color3;
+            .text{
+                font-weight: bold;
+            }
+            li{
+               
+                a{
+                    color: $color3;
+                }
+            }
+        }
+        .social-media{
+            list-style-type: none;
+            text-decoration: none;
+            li{
+                padding-top: 10px;
+                a{
+                    color: $color3;
+                }
+            }
+        }
+    }
+
+
+}
